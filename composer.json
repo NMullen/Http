@@ -1,5 +1,5 @@
 {
-  "name": "Nmullen/Http",
+  "name": "nmullen/http",
   "description": "Psr 7 Implementation",
   "keywords": [
     "psr-7"
