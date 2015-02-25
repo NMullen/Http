@@ -1,0 +1,38 @@
+{
+  "name": "Nmullen/Http",
+  "description": "Psr 7 Implementation",
+  "keywords": [
+    "psr-7"
+  ],
+  "homepage": "https://github.com/nmullen/http",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nicholas Mullen",
+      "email": "nicholas.mullen@bigpond.com",
+      "homepage": "https://github.com/nmullen/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "psr/http-message": "1.0.*@dev"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Nmullen\\Http\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Nmullen\\Http\\Test\\": "tests"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
